@@ -10,7 +10,7 @@ def add_student():
     branch = input("Enter Branch: ") # [4]
     
     # Handling marks input with split and map
-    marks_str = input("Enter 3 subject marks separated by space: ") # [5]
+    marks_str = input("Enter 3 subject marks separated by space: ") # [5
     # Converting string input into a list of integers
     marks = list(map(int, marks_str.split())) # [6], [5], [7]
     
